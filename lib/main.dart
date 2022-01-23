@@ -127,7 +127,7 @@ class _MyAppState extends State<MyAppClass> {
     var parser = DateFormat('dd.MM.yyyy hh:mm');
     var terminParsed = parser.parse("${termin}T07:00");
 
-    flutterLocalNotificationsPlugin.zonedSchedule(
+    flutterLocalNotificationsPlugin.schedule(
       1,
       'Slot organizer',
       'You have an exam today. Tap to see your full schedule',
@@ -142,8 +142,6 @@ class _MyAppState extends State<MyAppClass> {
           icon: '@mipmap/ic_launcher',
         ),
       ),
-      uiLocalNotificationDateInterpretation:
-          UILocalNotificationDateInterpretation.absoluteTime,
       androidAllowWhileIdle: true,
     );
   }
