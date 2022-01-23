@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "551215028052",
+    "project_id": "slot-organizer",
+    "storage_bucket": "slot-organizer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551215028052:android:7bf8aad6396b024924dac1",
+        "android_client_info": {
+          "package_name": "com.example.lab3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551215028052-q3o6376b173kkgo9ui4c7ia4utnfen0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6nE6rjkjWnUca4hTPwpU_QfgqIhGBO_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551215028052-q3o6376b173kkgo9ui4c7ia4utnfen0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
